@@ -23300,7 +23300,7 @@ Location:
 .faq-section-area .faq-area .accordion .accordion-item button {
   color: var(--ztc-text-text-2);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s14);
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
   line-height: 20px;
@@ -23351,7 +23351,7 @@ Location:
 .faq-section-area .faq-area .accordion .accordion-item .accordion-body p {
   color: var(--ztc-text-text-3);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s14);
   font-style: normal;
   font-weight: var(--ztc-weight-regular);
   line-height: 26px;
@@ -23360,6 +23360,11 @@ Location:
 @media (max-width: 767px) {
   .faq-section-area .faq-area .accordion .accordion-item .accordion-body p {
     padding: 0 24px 24px 24px;
+    font-size: var(--ztc-font-size-font-s12);
+  }
+  .faq-section-area .faq-area .accordion .accordion-item button  {
+ 
+    font-size: var(--ztc-font-size-font-s12);
   }
 }
 
